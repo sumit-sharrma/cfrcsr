@@ -1,0 +1,31 @@
+.operation{
+
+  &__list{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 .8rem 1.5rem rgba($color-black, .15);
+    transition: all .2s;
+    text-align: center;
+    padding: 5% 1%;
+    width: 44%;
+
+    &:not(:last-child){
+      margin-right: 5rem;
+    }
+
+    &-img{
+      width: 60px;
+      height: 60px;
+    }
+
+    p{
+      font-size: 1.4rem;
+    }
+
+    &:hover{
+      box-shadow: 0 1.1rem 2.5rem rgba($color-black, .2);
+      transform: translateY(-5px);
+    }
+  }
+}
